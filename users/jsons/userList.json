@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstNm": "John",
+            "lastNm": "Doe",
+            "dob": "1980-10-10",
+            "userNm": "john",
+            "group": "admin"
+        },
+        {
+            "id": 2,
+            "firstNm": "Jane",
+            "lastNm": "Doe",
+            "dob": "1970-10-10",
+            "userNm": "john",
+            "group": "guest"
+        },
+        {
+            "id": 3,
+            "firstNm": "John1",
+            "lastNm": "Doe",
+            "dob": "1981-10-10",
+            "userNm": "john1",
+            "group": "admin"
+        },
+    ]
+}

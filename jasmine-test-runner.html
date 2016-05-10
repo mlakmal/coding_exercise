@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jasmine/2.4.1/jasmine.css" />
+    <!-- add tests file references here if need be-->
+
+    <!-- documentation for jasmine can be found at http://jasmine.github.io/2.0/introduction.html -->
+</head>
+
+<body>
+    <script src="//cdn.jsdelivr.net/jasmine/2.4.1/jasmine.js"></script>
+    <script src="//cdn.jsdelivr.net/jasmine/2.4.1/jasmine-html.js"></script>
+    <script src="//cdn.jsdelivr.net/jasmine/2.4.1/boot.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-cookies.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-message-format.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-touch.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-mocks.js"></script>
+
+    <script src="main/mainModule.js"></script>
+    <script src="main/mainConfig.js"></script>
+    <script src="main/controllers/mainCtrl.js"></script>
+    <script src="main/services/routeHlpr.js"></script>
+    <script src="users/usersModule.js"></script>
+    <script src="users/directives/userListDir.js"></script>
+    <script src="users/directives/addUpdUserDir.js"></script>
+    <script src="users/services/usersHlpr.js"></script>
+
+    <script src="users/directives/userListDir.spec.js"></script>
+    <script src="users/directives/addUpdUserDir.spec.js"></script>
+    <script>
+        //angular.bootstrap(document, ['cexMainModule']);
+    </script>
+</body>
+
+</html>

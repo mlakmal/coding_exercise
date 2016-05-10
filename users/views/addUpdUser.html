@@ -1,0 +1,32 @@
+<div>
+    <!-- use ngMessages https://docs.angularjs.org/api/ngMessages/directive/ngMessages 
+    to get each input field $error object and show validation errors correctly  -->
+    <form name="addUpdUserForm" novalidate>
+        <label for="txtFirstNm">First Name:</label>
+        <input type="text" id="txtFirstNm" name="txtFirstNm" />
+        <span>
+        <span>First Name required</span>
+        </span>
+
+        <label for="txtLastNm">Last Name:</label>
+        <input type="text" id="txtLastNm" name="txtLastNm" />
+        <span>
+        <span>Last Name required</span>
+        </span>
+
+        <label for="txtUsername">Username:</label>
+        <input type="text" id="txtUsername" name="txtUsername" />
+        <span>
+        <span>Username required</span>
+        <span>Username pattern should be like </span>
+        </span>
+
+        <label for="txtDob">Date of birth:</label>
+        <input type="text" id="txtDob" name="txtDob" />
+        <span>
+        <span>Date of birth required</span>
+        <span>Date pattern should be like MM/DD/YYYY</span>
+        </span>
+        <button data-ng-click="vm.handleSubmit()">Submit</button>
+    </form>
+</div>

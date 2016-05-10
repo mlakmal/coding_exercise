@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>developer exercise</title>
+    <link data-require="bootstrap-css@*" data-semver="3.2.0" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div data-ng-view id="ng-view" class="" data-autoscroll="">
+        </div>
+    </div>
+    <a href="jasmine-test-runner.html">Run Unit Tests</a>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-cookies.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-message-format.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-touch.js"></script>
+
+    <script src="main/mainModule.js"></script>
+    <script src="main/mainConfig.js"></script>
+    <script src="main/controllers/mainCtrl.js"></script>
+    <script src="main/services/routeHlpr.js"></script>
+    <script src="users/usersModule.js"></script>
+    <script src="users/directives/userListDir.js"></script>
+    <script src="users/directives/addUpdUserDir.js"></script>
+    <script src="users/services/usersHlpr.js"></script>
+    <script>
+        angular.bootstrap(document, ['cexMainModule']);        
+    </script>
+</body>
+
+</html>

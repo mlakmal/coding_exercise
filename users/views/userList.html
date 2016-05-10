@@ -1,0 +1,10 @@
+<div>
+    <h2>User List</h2>
+    <div data-ng-repeat="u in vm.users">
+        <div>First name: {{u.firstNm}}</div>
+        <!-- create other div tags to show users other info ex: lastname, dob, username -->
+        <div>
+            <a href="user?userId={{u.id}}">Edit</a>
+        </div>
+    </div>
+</div>
